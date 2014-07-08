@@ -1,0 +1,5 @@
+INSTALL:
+1.Clone the git repo. 
+2.Move it to your document root
+3.Install apache2-PHP.
+4.open the application from localhost.

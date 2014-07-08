@@ -1,0 +1,1 @@
+This an web application that helps you find different geographical arenas like railway routes,shotest road networks,rivers path ,states and their info all plotted using google maps API.It uses postgres as database which contains geographical data.Backend is of PHP and the frontend taht of HTML_CSS.

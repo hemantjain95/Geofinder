@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Spatial Database - DBMS Project</title>
+<meta charset="UTF-8">
+<!--Style Sheet-->
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/sequence.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+<!--Special Styles-->
+<link rel="stylesheet" type="text/css" href="css/style.css" title="default" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="css/elegant.css" title="elegant" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="css/modern.css" title="modern" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="css/colorfull.css" title="colorfull" media="screen">
+<!--Responsive-->
+<link rel="stylesheet" type="text/css" href="css/responsitive.css" media="all">
+<!--Google fonts-->
+<link href='http://fonts.googleapis.com/css?family=Russo+One&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+<!--Javascript-->
+<script src="js/jquery-1.7.2.min.js"></script>
+<!--[if lt IE9]>
+<script src="js/html5.js"></script>
+<script src="js/IE7.js"></script>
+<![endif]-->
+</head>
+<body>
+<header class="dark">
+  <nav>
+    <div id="logo">
+      <h1><a href="index.html">Project</h1>
+    </div>
+    <div id="menu">
+      <ul>
+          <li>  <a href="city.php" >City Citing</a> <a href="dist1.php">City path</a> <a href="rail2.php">Railway</a> <a href="river1.php">River</a> <a href="road.php">Roads</a><a href="state.php">State</a> </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!--<div id="switcher"> <a class="switch-button open"></a>
+  <div class="content">
+    <ul class="headercolor">
+      <span>Header color</span>
+      <li class="red"><a href="#light">Light</a></li>
+      <li class="blue"><a href="#dark">Dark</a></li>
+    </ul>
+    <ul class="theme">
+      <span>Theme</span>
+      <li><a href="#" rel="default" class="styleswitch">default</a></li>
+      <li><a href="#" rel="elegant" class="styleswitch">elegant</a></li>
+      <li><a href="#" rel="modern" class="styleswitch">modern</a></li>
+      <li><a href="#" rel="colorfull" class="styleswitch">colorfull</a></li>
+    </ul>
+  </div>
+</div>-->
+<section id="slider">
+  <div id="sequence-preloader">
+    <div class="preloading"> <img src="images/icons/loader.gif" alt=""> </div>
+  </div>
+  <div id="slideshow"> <img class="prev" src="images/prev.png" alt=""> <img class="next" src="images/next.png" alt="">
+    <ul>
+      <li> <img class="backgrd" src="images/bg/blue.jpg"  alt="">  <img class="image1" src="url.jpeg" style="widht:500px;height:400px;" alt=""> 
+        <div class="info">
+          <h2>City Citing</h2>
+          <p>Locate your City</p>
+        </div>
+        <a href="#" class="more">GO</a> </li>
+      <li> <img class="backgrd" src="images/bg/orange.jpg" alt=""> <img class="image1" src="path.jpg" style="widht:500px;height:400px;" alt=""> 
+        <div class="info">
+          <h2>City Path</h2>
+          <p>Find your way to a city.</p>
+        </div>
+        <a href="#" class="more">GO</a> </li>
+      <li> <img class="backgrd" src="images/bg/blue.jpg" alt=""> <img class="image1" src="rail.jpg" style="widht:500px;height:400px;"alt="">
+        <div class="info blue">
+          <h2>Railway Routes</h2>
+          <p> Map the Train</p> 
+        </div><a href="#" class="more">GO</a> 
+      </li>
+<li> <img class="backgrd" src="images/bg/glass.jpg" alt=""> <img class="overlay" src="images/bg/ice.png" alt=""> <img class="image1" src="river.jpg" style="widht:500px;height:400px;" alt=""> 
+        <div class="info">
+          <h2>River</h2>
+          <p>Map the Flow </p>
+        </div>
+        <a href="#" class="more">GO</a> </li>
+      
+      <li> <img class="backgrd" src="images/bg/blue.jpg" alt=""> <img class="image1" src="road.jpg" style="widht:500px;height:400px;" alt=""> 
+        <div class="info blue">
+          <h2>Road Ways </h2>
+          <p>Track your routes </p>
+        </div><a href="#" class="more">GO</a>
+      </li>
+<li> <img class="backgrd" src="images/bg/glass.jpg" alt=""> <img class="overlay" src="images/bg/ice.png" alt=""> <img class="image1" src="states.png" style="widht:500px;height:400px;" alt=""> 
+        <div class="info">
+          <h2>State Locate</h2>
+          <p>Map your State </p>
+        </div>
+        <a href="#" class="more">GO</a> </li>
+      
+      
+    </ul>
+  </div>
+</section>
+<section id="services" class="container dark">
+  <div class="content">
+    <div class="title icon-power">
+      <h1>Credits <span></span></h1>
+      <div class="description"></div>
+    </div>
+   
+    <div class="full">
+      <div class="column-one-forth">
+        <ul class="list">
+          <h3>Hemant Jain<br />Y12UC105</h3>
+          
+        </ul>
+      </div>
+<div class="column-one-forth">
+        <ul class="list">
+          <h3>Kaustubh Khandelwal<br />Y12UC126</h3>
+          
+        </ul>
+      </div>
+      <div class="column-one-forth">
+        <ul class="list">
+          <h3>Kaniskh Rawat<br />Y12UC120</h3>
+         
+        </ul>
+      </div>
+      <div class="column-one-forth">
+        <ul class="list">
+          <h3>Jai Upadhayay<BR />Y12UC114</h3>
+       
+        </ul>
+      </div>
+      <div class="column-one-forth">
+        <ul class="list">
+          <h3>Harshit Chaturvedi<BR />Y12UC103</h3>
+          
+        </ul>
+      </div>
+     
+    </div>
+  </div>
+</section>
+<!--Javascript-->
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/sequence.jquery-min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/quicksand.js"></script>
+<script src="js/jquery.masonery.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/gmaps.js"></script>
+<script src="js/jquery.accordion.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/styleswitch.js"></script>
+<script src="js/custom.js"></script>
+<!--Sequence slider-->
+<script>
+var options = {
+    autoPlay: true,
+    nextButton: ".next",
+    prevButton: ".prev",
+    preloader: "#sequence-preloader",
+    prependPreloader: false,
+    prependPreloadingComplete: "#sequence-preloader, #slideshow",
+    animateStartingFrameIn: true,
+    transitionThreshold: 500,
+    nextButtonAlt: " ",
+    prevButtonAlt: " ",
+    afterPreload: function () {
+        $(".prev, .next").fadeIn(500);
+        if (!slideShow.transitionsSupported) {
+            $("#slideshow").animate({
+                "opacity": "1"
+            }, 1000);
+        }
+    }
+};
+var slideShow = $("#slideshow").sequence(options).data("sequence");
+if (!slideShow.transitionsSupported || slideShow.prefix == "-o-") {
+    $("#slideshow").animate({
+        "opacity": "1"
+    }, 1000);
+    slideShow.preloaderFallback();
+}
+</script>
+<script>
+new GMaps({
+    div: '#map',
+    lat: 44.79913,
+    lng: 20.47662
+});
+</script>
+<script>
+if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='js/jquery.js'%3E%3C/script%3E"));
+}
+</script>
+</body>
+</html>

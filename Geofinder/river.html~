@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Spatial Database - DBMS Project</title>
+<meta charset="UTF-8">
+<!--Style Sheet-->
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/sequence.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+<!--Special Styles-->
+<link rel="stylesheet" type="text/css" href="css/style.css" title="default" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="css/elegant.css" title="elegant" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="css/modern.css" title="modern" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="css/colorfull.css" title="colorfull" media="screen">
+<!--Responsive-->
+<link rel="stylesheet" type="text/css" href="css/responsitive.css" media="all">
+<!--Google fonts-->
+<link href='http://fonts.googleapis.com/css?family=Russo+One&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+<!--Javascript-->
+<script src="js/jquery-1.7.2.min.js"></script>
+<!--[if lt IE9]>
+<script src="js/html5.js"></script>
+<script src="js/IE7.js"></script>
+<![endif]-->
+</head>
+<body>
+<header class="dark">
+  <nav>
+    <div id="logo">
+      <h1><a href="index.html">Project</h1>
+    </div>
+    <div id="menu">
+      <ul>
+        <li>  <a href="city.html" >City Citing</a> <a href="path.html">City path</a> <a href="rail.html">Railway</a> <a href="river.html">River</a> <a href="roads.html">Roads</a> </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!--<div id="switcher"> <a class="switch-button open"></a>
+  <div class="content">
+    <ul class="headercolor">
+      <span>Header color</span>
+      <li class="red"><a href="#light">Light</a></li>
+      <li class="blue"><a href="#dark">Dark</a></li>
+    </ul>
+    <ul class="theme">
+      <span>Theme</span>
+      <li><a href="#" rel="default" class="styleswitch">default</a></li>
+      <li><a href="#" rel="elegant" class="styleswitch">elegant</a></li>
+      <li><a href="#" rel="modern" class="styleswitch">modern</a></li>
+      <li><a href="#" rel="colorfull" class="styleswitch">colorfull</a></li>
+    </ul>
+  </div>
+</div>-->
+<section id="contact" class="container dark second">
+  <div class="content">
+    <div class="title icon-phone">
+      <h1>Contact <span>What we offer</span></h1>
+      <div class="description"> <a href="#"><img src="images/icons/instagram.png" alt="" class="social"></a> <a href="#"><img src="images/icons/flickr.png" alt="" class="social"></a> <a href="#"><img src="images/icons/dribbble.png" alt="" class="social"></a></div>
+    </div>
+    <div class="full">
+      <div id="contact-form">
+        <form id="contact-us" action="#">
+          <div class="column-half">
+            <div class="formblock">
+              <input type="text" name="contactName" id="contactName" value="" class="txt requiredField" placeholder="Name:">
+            </div>
+            <div class="formblock">
+              <input type="text" name="email" id="email" value="" class="txt requiredField email" placeholder="Email:">
+            </div>
+            <div class="formblock">
+              <input type="text" name="website" id="website" value="" class="txt website" placeholder="Website:">
+            </div>
+            <div class="formblock">
+              <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder="Message:"></textarea>
+            </div>
+            <button name="submit" type="submit" class="subbutton"></button>
+          </div>
+          <div class="column-half last">
+            <div id="map"></div>
+            <p>Pork chop pancetta pork, filet mignon venison jerky corned beef pork belly cow speck turducken. Ribeye ham fatback, jerky boudin tenderloin biltong speck tail ham hock kielbasa corned beef short ribs meatloaf prosciutto. Hamburger beef andouille speck pastrami. Turkey tri-tip chicken t-bone, bresaola filet mignon tenderloin prosciutto sausage capicola chuck drumstick. Tail ground round strip steak spare ribs, shoulder pig filet mignon. Spare ribs corned beef kielbasa pig, swine ground round boudin bresaola. Beef spare ribs corned beef, jowl ground round speck rump sausage shoulder venison tri-tip turkey kielbasa capicola.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer> <a href="#" class="twitter"> <span class="twitter"></span>
+  <p class="twitter_status"></p>
+  </a>
+  <section class="footer">
+    <p>&copy; Copyright 2012 <a href="#">Company Name</a> All Rights Reserved | Website Template By <a target="_blank" href="http://madabout.rs/">Nikola Susa</a></p>
+  </section>
+</footer>
+<!--Javascript-->
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/sequence.jquery-min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/quicksand.js"></script>
+<script src="js/jquery.masonery.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/gmaps.js"></script>
+<script src="js/jquery.accordion.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/styleswitch.js"></script>
+<script src="js/custom.js"></script>
+<!--Sequence slider-->
+<script>
+var options = {
+    autoPlay: true,
+    nextButton: ".next",
+    prevButton: ".prev",
+    preloader: "#sequence-preloader",
+    prependPreloader: false,
+    prependPreloadingComplete: "#sequence-preloader, #slideshow",
+    animateStartingFrameIn: true,
+    transitionThreshold: 500,
+    nextButtonAlt: " ",
+    prevButtonAlt: " ",
+    afterPreload: function () {
+        $(".prev, .next").fadeIn(500);
+        if (!slideShow.transitionsSupported) {
+            $("#slideshow").animate({
+                "opacity": "1"
+            }, 1000);
+        }
+    }
+};
+var slideShow = $("#slideshow").sequence(options).data("sequence");
+if (!slideShow.transitionsSupported || slideShow.prefix == "-o-") {
+    $("#slideshow").animate({
+        "opacity": "1"
+    }, 1000);
+    slideShow.preloaderFallback();
+}
+</script>
+<script>
+new GMaps({
+    div: '#map',
+    lat: 44.79913,
+    lng: 20.47662
+});
+</script>
+<script>
+if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='js/jquery.js'%3E%3C/script%3E"));
+}
+</script>
+</body>
+</html>
